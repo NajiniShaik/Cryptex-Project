@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body{
+    background-color:#17181c;
+}
+
+/* navbar */
+
+.navbar{
+    background-color:#131315;
+}
+
+.navbar-logo{
+    height:auto;
+    width:40px;
+}
+
+.navbar-title{
+    color:#ffffff;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Roboto";
+}
+
+#navbarLogoCard{
+    display: flex;
+    align-items: center;
+}
+
+#navbarItem1{
+    font-size: 20px;
+    font-family: "Roboto";
+    color:#fff;
+}
+
+@media (min-width:992px){
+    #navbarItem1{
+        display: block;
+        background-color:#3d73ef;
+        color:#fff;
+    }
+}
+
+@media (max-width:992px){
+    #navbarItem1:hover{
+        color:#3d73ef;
+    }
+}
+
+#navbarItem2{
+    font-size: 20px;
+    font-family: "Roboto";
+    color:#fff;
+}
+
+#navbarItem2:hover{
+    color:#3d73ef;
+}
+
+#navbarItem3{
+    font-size: 20px;
+    font-family: "Roboto";
+    color:#fff;
+}
+
+#navbarItem3:hover{
+    color:#3d73ef;
+}
+
+#navbarItem4{
+    font-size: 20px;
+    font-family: "Roboto";
+    color:#fff;
+}
+
+#navbarItem4:hover{
+    color:#3d73ef;
+}
+
+#navbarItem5{
+    font-size: 20px;
+    font-family: "Roboto";
+    color:#fff;
+}
+
+#navbarItem5:hover{
+    color:#3d73ef;
+}
+
+#navbarItem6{
+    font-size: 20px;
+    font-family: "Roboto";
+    color:#fff;
+}
+
+#navbarItem6:hover{
+    color:#3d73ef;
+}
+
+
+
+/* section */
+
+.detailed-container{
+    min-height:80vh;
+}
+
+@media (min-width:768px){
+    .detailed-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.main-title{
+    color:#fff;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.description{
+    color:#afb3ce;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+
+
+/* section */
+
+.crypto-coins-cards-container{
+    border: 1px solid ;
+    border-radius: 15px;
+    padding:30px;
+}
+
+.options-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #212227;
+}
+
+.options{
+    color:#fff;
+    font-size: 17px;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.options:hover{
+    color:#fff;
+    text-decoration: none;
+}
+
+.option1{
+    background-color: #3d73ef;
+    padding:6px 15px;
+    border-radius: 30px;
+}
+
+
+.crypto-card{
+    margin: 20px 0px;
+    font-family: "Roboto";
+    border-radius: 15px;
+    padding:20px;
+}
+
+.crypto-card:hover{
+    background-color:hsla(0, 2%, 54%, 0.1);
+}
+
+.selected-card{
+
+    background-color:hsla(0, 2%, 54%, 0.1);
+}
+
+.crypto-logo{
+    height:auto;
+    width:40px;
+}
+
+.crypto-name{
+    color:#fff;
+}
+
+.crypto-name:hover{
+    text-decoration: none;
+}
+
+.crypto-in{
+    font-size: 20px;
+    color:#a4b5bd;
+}
+
+.crypto-value{
+    color:#ffffff;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Roboto";
+}
+
+.count{
+    color:#a4b5bd;
+    font-size: 22px;
+}
+
+.percentage{
+    display: inline-block;
+    background-color:#d13735;
+    color:#fff;
+    width:70px;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.green-tag{
+    background-color:#59bc79;
+}
+
+
+/* How it Works */
+
+.img{
+    height:auto;
+    width:90px;
+    margin-bottom: 10px;
+    transition:0.9s ease;
+}
+
+.img:hover{
+    transform: rotatey(360deg);
+}
+
+.img + p{
+    color:#a4b5bd;
+    font-size: 17px;
+}
+
+.card-title{
+    color:#ffffff;
+    font-size: 30px;
+    font-weight: 600;
+    font-family:"Roboto";
+}
+
+.card-details{
+    color:#818d99;
+    font-size: 17px;
+    font-family: "Roboto";
+}
+
+
+/* section */
+
+.app-store-img{
+    height:40px;
+    width:120px;
+    margin-right: 20px;
+}
+
+
+
+/* Footer */
+
+.footer-title{
+
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Roboto";
+}
+
+.items{
+    display: block;
+    color:#a4b5bd;
+    font-size: 16px;
+    font-family: "Roboto";
+    margin-bottom: 10px;
+    transition: 0.9s ease;
+}
+
+.items:hover{
+    color:#3d73ef;
+    text-decoration: none;
+    transform: translatex(-12px);
+}
+
+.section{
+    background-color: #131315;
+}
